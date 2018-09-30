@@ -6,7 +6,11 @@
 	<groupId>vhnguyen.azuretopicsubscription</groupId>
 	<artifactId>topsub-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>topic-subscription-connection</module>
+        <module>topic-subscription-impl</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>topsub-demo</name>
 	<description>Demo project for Spring Boot</description>
